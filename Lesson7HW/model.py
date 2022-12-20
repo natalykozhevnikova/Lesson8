@@ -3,7 +3,7 @@ def get_contact():
     phone = input('Введите номер: ')
     return f'{name}  {phone}\n'
 
-def find_contact(spravochnik, req):
+def find_contact(spravochnik,  req):
     a - ''
     for i in spravochnik:
         if i.find(req) !=-1:
